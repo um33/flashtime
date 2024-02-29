@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f8f8ff;
+}
+
+:root {
+  --primary: #0d47a1;
+  --primary-light: #446ba5;
+  --primary-dark: #0b2d61;
+  --secondary: #970f31;
+  --secondary-light: #d44f5f;
+  --tertiary: #757687;
+  --tertiary-light: #a9aabc;
+  --black: #121212;
+  --green: #43a047;
+}
+
+.main-container {
+  margin: 8rem auto;
+}
+
+.btn,
+.btn.btn-primary,
+.btn.btn-secondary,
+.btn.btn-outlined,
+button {
+  box-shadow: none;
+}
+
+input.form-control,
+input.form-control:focus {
+  box-shadow: none;
+}
+
+input.form-control:focus {
+  border-color: var(--primary);
+}
+
+@media screen and (max-width: 768px) {
+  :root {
+    font-size: 90%;
+  }
+}
